@@ -1,0 +1,17 @@
+{
+  "name": "3d_show",
+  "version": "1.0.0",
+  "description": "My 3D model showcase &lt;3",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.163.0",
+    "vite": "^5.2.7"
+  }
+}
