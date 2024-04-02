@@ -2,7 +2,6 @@ import * as THREE from 'three'
 
 import { OrbitControls} from 'three/examples/jsm/controls/OrbitControls.js'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'
-import { CSS2DRenderer } from 'three/examples/jsm/renderers/CSS2DRenderer'
 
 const canvas = document.querySelector('.webgl')
 const scene = new THREE.Scene()
@@ -75,6 +74,8 @@ controls.maxPolarAngle = 2;
 controls.autoRotate = false;
 controls.target = new THREE.Vector3(0, .5, 0);
 controls.update();
+
+
 
 function animate(){
     requestAnimationFrame(animate)
